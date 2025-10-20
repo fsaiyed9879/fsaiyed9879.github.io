@@ -97,6 +97,44 @@ In the perceptron activity, I applied my understanding of the Perceptron by expe
 
 The gradient cost function was focused on finding the lowest possible cost with the fewest iterations in the code. The exercise involced achieving that target by comparing 2 scenarios: the initial setup used 100 iterations with a learning rate of 0.08 while the modified setup reduced the process to 60 iterations with a learning rate of 0.07.
 
-Unit 9 and 10 - 
+**Unit 9 and 10 - Legal and Ethical Challenges**
+I considered how Convolutional Neural Networks (CNNs) are transforming object recognition and the ethical questions that come with it. CNNs can bring huge benefits in areas like medical diagnostics as seen in its early stages around the globe, security, and automation, but they also raise concerns about privacy, bias, and misuse. Without clear regulations, these systems could be used for mass surveillance or discriminatory profiling, which would undermine public trust.
+
+Running the Object Recognition.ipynb CNN model helped me understand how the algorithm processes images through convolutional, pooling, and fully connected layers. I changed the input image index from plt.imshow(x_test[16]) to several values between 1 and 15. Most predictions were correct, but a few were wrong, showing how dataset quality and diversity directly affect accuracy. This reinforced the importance of using representative data and testing models thoroughly.
+
+From a professional perspective, ML practitioners must ensure transparency in how models are trained and deployed. As the European Council (2024) notes, poor data handling can lead to harmful bias. While CNNs can improve efficiency in industries from healthcare to banking (Google, 2024), they must be developed with ethical safeguards to prevent misuse. My takeaway is that innovation must be balanced with responsibility — AI should serve society, not harm it.
+
+References:
+European Council. (2024). Benefits and risks of AI. [online] Available at: https://www.consilium.europa.eu/en/policies/benefits-and-risks-of-ai/#benefits.
+
+Google (2024). Applications of Artificial Intelligence (AI). [online] Google Cloud. Available at: https://cloud.google.com/discover/ai-applications.
+
+**Unit 11 - Individual Development Project on CIFAR-10**
+This unit was all about writing an individual development project by training a set of images to generate a model which can predict image classes.
+
+Preentation Without Audio: [Presentation without audio.pptx](https://github.com/user-attachments/files/23007580/Presentation.without.audio.pptx)
+
+Transcript: [Transcript.docx](https://github.com/user-attachments/files/23007581/Transcript.docx)
+
+**Unit 12 - Individual Reflections**
+Before starting this course, I only had a pretty surface-level understanding of how machine learning shows up in the real world, especially from a project during my time at Deloitte with the F1 team McLaren and how to optimise car usage and improve on lap time. I knew it was everywhere, but I didn’t really think about what went on behind it. Unit 1 was a lot more eye-opening than I expected. It didn’t just cover how ML works, but also dug into the ethical and professional responsibilities that come with using it. I’ll be honest — I didn’t think the ethics part would interest me much, but it actually did. It made me realise how much impact these systems can have beyond just their technical performance.
+
+Unit 2 on Exploratory Data Analysis (EDA) felt familiar at first since I’d done similar work before, but it made me realise I’d been treating it a bit superficially. I used to think of EDA as a quick box to tick before moving on to modelling, but this unit showed me it’s an ongoing process. While my background is heavily on the data warehousing/modelling and data pipelines/ETl, which had taught me the importance of clean and structured data for reporting and analytics purposes, I’ve started looping back to EDA more often now, cleaning and validating data as I go but this time for ML purposes and training models. It’s made a big difference — I spend less time fixing issues later because I’m catching them earlier.
+
+Units 3 and 4, on correlation and regression, were where things got tough. The theory made sense in lectures, but when I tried to apply it in Scikit-Learn, it didn’t click right away. I remember struggling to interpret coefficients and residual plots, and at one point my regression model produced a negative R², which threw me off completely. It took a lot of troubleshooting (and more Googling than I’d like to admit alongside speaking to my Data Science collegues at work to understand the practical applications of it in the job) before I figured out how to fix it. I’m still not 100% sure I understood exactly why it happened, but that experience taught me a lot about patience and problem-solving.
+
+By Unit 6, clustering started to feel more comfortable. I’d worked with K-Means before, so it wasn’t totally new.
+
+Unit 9, the CNN object recognition project, was easily one of the most rewarding parts of the course. It took several attempts and a lot of trial and error with hyperparameters, especially the learning rate, before I got decent results. Watching the model improve step by step was genuinely exciting. More than that, I started to understand why those changes worked, not just that they did. That made it feel like a real achievement.
+
+Units 7 and 8 on neural networks helped tie everything together. Since I’d already worked on the CNN project, I found the theory behind backpropagation and gradient descent much easier to grasp. It still gets complicated fast, but now I at least understand what’s happening conceptually. Unit 10 on transformer models — especially BERT and GPT — was fascinating but also a bit overwhelming. My computer definitely wasn’t powerful enough to run those models properly, so I had to use cloud solutions, which was a new experience for me. It really hit me how quickly this field is evolving.
+
+By the time we got to Unit 11, I realised I’d been overfitting some of my earlier models without even noticing. Learning about proper validation and evaluation helped me understand that getting a high accuracy score isn’t the same as building a good model. Finally, Unit 12’s discussion on Industry 4.0 and edge AI was a great way to wrap things up. It showed me how fast things are changing and how important it is to keep learning, even after this course.
+
+Looking back, this whole course has pushed me a lot — technically and personally. There were definitely frustrating moments, but also a lot of small wins and “aha” moments along the way. I’m finishing it feeling more confident not just in the tools and techniques, but in my ability to think critically about when and how to use them responsibly.
+
+I have been working for over 11 years in the data field, working across multiple sectors and clients. I have experienced the full data lifecycle of data cleansing, ETL, modelling to finally lead on an extensive set of reporting and analytics to help my clients be more data driven, but now that knowledge has immensely grown with the understanding of Machine Learning in this unit and I am forever grateful to have studied this unit to make me a better and an all round data professional.
+
+
 
 
