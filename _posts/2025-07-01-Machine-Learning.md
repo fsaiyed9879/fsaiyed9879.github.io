@@ -17,19 +17,19 @@ tags: [machine learning, python, exploratory data analysis, correlations, regres
 Machine Learning is truly everywhere these days, driving decisions from our online browsing to big financial choices, all thanks to the explosion of real-time data that helps these systems learn and get smarter day by day, while also increating ethical issues and spread of misinformation (Schwab, 2016). This past 12 weeks, I have really delved deep into the world od ML, tracing its journey from foundational ideas (Bishop, 2006) and core statistical principles (Crawford, 2006) right up to the cutting-edge applications like deep learning in social computing (Zhao & Li, 2018). What really struck me is both the exciting oppornity ML brings to the data world but also the serious challenges that come with relying on such algorithms. I explored how big data, ML, and AI all fit together in today's vast data landscape. Now, i have a much clearer picture of ML's huge potential to reshape industries (Metcalf; 2024; WEF; 2025), the specific skills needed to master this field and crucially the ethical pitfalls we must discuss (BBC News, 2020).
 
 References:
-BBC News. (2020) 'Facebook sued over Cambridge Analytica data scandal', BBC News, 16 March. Available at: [https://www.bbc.co.uk/news/technology-54722362] (Accessed: 20 October 2025).
+BBC News. (2020) 'Facebook sued over Cambridge Analytica data scandal', BBC News, 16 March. Available at: [https://www.bbc.co.uk/news/technology-54722362] (Accessed: 20 October 2025). (Accessed: 20 October 2025).
 
-Bishop, C. (2006) Pattern Recognition and Machine Learning. New York, NY: Springer.
+Bishop, C. (2006) Pattern Recognition and Machine Learning. New York, NY: Springer. (Accessed: 20 October 2025).
 
-Crawford, S. L. (2006) 'Correlation and Regression', Circulation, 114(9), pp. 2083–2088.
+Crawford, S. L. (2006) 'Correlation and Regression', Circulation, 114(9), pp. 2083–2088. (Accessed: 20 October 2025).
 
-Metcalf, G.S. (2024) 'An Introduction to Industry 5.0: History, Foundations, and Futures', In: Nousala, S., Metcalf, G., Ing, D. (eds) Industry 4.0 to Industry 5.0. Translational Systems Sciences, vol 41. Singapore: Springer.
+Metcalf, G.S. (2024) 'An Introduction to Industry 5.0: History, Foundations, and Futures', In: Nousala, S., Metcalf, G., Ing, D. (eds) Industry 4.0 to Industry 5.0. Translational Systems Sciences, vol 41. Singapore: Springer. (Accessed: 20 October 2025).
 
-Schwab, K. (2016) The Fourth Industrial Revolution. Geneva: World Economic Forum
+Schwab, K. (2016) The Fourth Industrial Revolution. Geneva: World Economic Forum (Accessed: 20 October 2025).
 
 World Economic Forum (WEF) (2025) The Future of Jobs Report 2025. Available at: https://www.weforum.org/publications/the-future-of-jobs-report-2025/ (Accessed: 20 October 2025).
 
-Zhao, X. and Li, C. (2018) 'Deep Learning in Social Computing', In: Deng, L., Liu, Y. (edns) Deep Learning in Natural Language Processing. Singapore: Springer, pp. 255-288.
+Zhao, X. and Li, C. (2018) 'Deep Learning in Social Computing', In: Deng, L., Liu, Y. (edns) Deep Learning in Natural Language Processing. Singapore: Springer, pp. 255-288. (Accessed: 20 October 2025).
 
 **Unit 2 - Exploratory Data Analysis**
 This unit introduced me with EDA practically, where I performed data analysis on the Auto-MPD dataset provided online in a csv format. I uploaded this data into google colab to identify data completeness and estimate skewness & kurtosis. I plotted a bunch of visuals to present back results of my EDA. It proved a great strating point especially given the simplicity of the dataset I was using, allowing me experiment. 
