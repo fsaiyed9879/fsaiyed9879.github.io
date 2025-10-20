@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Machine Learning
-subtitle: A comprehensive reflection of the learning journey accross the 12 units of the module. It includes artefacts, summaries of activities and personal reflections related to the modules core learning outcomes.
+subtitle: A comprehensive reflection of the learning journey across the 12 units of the module. It includes artefacts, summaries of activities and personal reflections related to the modules core learning outcomes.
 categories: Website
 tags: [machine learning, python, exploratory data analysis, correlations, regression]
 ---
@@ -14,7 +14,7 @@ tags: [machine learning, python, exploratory data analysis, correlations, regres
     4- Systematically develop and implement the skills required to be effective member of a development team in a virtual professional environment, adopting real-life perspectives on team roles and organisation.
 
 **Unit 1**
-Machine Learning is truly everywhere these days, driving decisions from our online browsing to big financial choices, all thanks to the explosion of real-time data that helps these systems learn and get smarter day by day, while also increating ethical issues and spread of misinformation (Schwab, 2016). This past 12 weeks, I have really delved deep into the world od ML, tracing its journey from foundational ideas (Bishop, 2006) and core statistical principles (Crawford, 2006) right up to the cutting-edge applications like deep learning in social computing (Zhao & Li, 2018). What really struck me is both the exciting oppornity ML brings to the data world but also the serious challenges that come with relying on such algorithms. I explored how big data, ML, and AI all fit together in today's vast data landscape. Now, i have a much clearer picture of ML's huge potential to reshape industries (Metcalf; 2024; WEF; 2025), the specific skills needed to master this field and crucially the ethical pitfalls we must discuss (BBC News, 2020).
+Machine Learning is truly everywhere these days, driving decisions from our online browsing to big financial choices, all thanks to the explosion of real-time data that helps these systems learn and get smarter day by day, while also increasing ethical issues and spread of misinformation (Schwab, 2016). This past 12 weeks, I have really delved deep into the world od ML, tracing its journey from foundational ideas (Bishop, 2006) and core statistical principles (Crawford, 2006) right up to the cutting-edge applications like deep learning in social computing (Zhao & Li, 2018). What really struck me is both the exciting opportunity ML brings to the data world but also the serious challenges that come with relying on such algorithms. I explored how big data, ML, and AI all fit together in today's vast data landscape. Now, i have a much clearer picture of ML's huge potential to reshape industries (Metcalf; 2024; WEF; 2025), the specific skills needed to master this field and crucially the ethical pitfalls we must discuss (BBC News, 2020).
 
 References:
 BBC News. (2020) 'Facebook sued over Cambridge Analytica data scandal', BBC News, 16 March. Available at: [https://www.bbc.co.uk/news/technology-54722362] (Accessed: 20 October 2025). (Accessed: 20 October 2025).
@@ -32,7 +32,7 @@ World Economic Forum (WEF) (2025) The Future of Jobs Report 2025. Available at: 
 Zhao, X. and Li, C. (2018) 'Deep Learning in Social Computing', In: Deng, L., Liu, Y. (edns) Deep Learning in Natural Language Processing. Singapore: Springer, pp. 255-288. (Accessed: 20 October 2025).
 
 **Unit 2 - Exploratory Data Analysis**
-This unit introduced me with EDA practically, where I performed data analysis on the Auto-MPD dataset provided online in a csv format. I uploaded this data into google colab to identify data completeness and estimate skewness & kurtosis. I plotted a bunch of visuals to present back results of my EDA. It proved a great strating point especially given the simplicity of the dataset I was using, allowing me experiment. 
+This unit introduced me with EDA practically, where I performed data analysis on the Auto-MPD dataset provided online in a csv format. I uploaded this data into google colab to identify data completeness and estimate skewness & kurtosis. I plotted a bunch of visuals to present back results of my EDA. It proved a great starting point especially given the simplicity of the dataset I was using, allowing me experiment. 
 <img width="608" height="503" alt="Unit 2Data Exploration" src="https://github.com/user-attachments/assets/0b863e7d-a1ed-4c0f-8bd6-c692ca5b3866" />
 <img width="1090" height="520" alt="unit 2 skewness" src="https://github.com/user-attachments/assets/4b7fba1b-6a16-4b7a-bb5d-3b4adf98b003" />
 <img width="1086" height="524" alt="unit 2 kurtosis" src="https://github.com/user-attachments/assets/511e2551-fbe8-41bb-9cbd-d92ede74562b" />
@@ -40,7 +40,7 @@ This unit introduced me with EDA practically, where I performed data analysis on
 <img width="704" height="611" alt="unit 2 correlation heatmap" src="https://github.com/user-attachments/assets/7d0f3d1d-a271-4f49-9235-27a3ba7ba8bb" />
 
 **Unit 3 & 4 - Correlation and Regression**
-The unit had predefined python scripts with visualisation showing me examples of correlation and different types of regression. The introduction of polunomial, linear and pearson formed a solid understanding to the concept. Also, to be able to modify the set parameters helped gain better understanding of its affect on the different types of regression and correlation. 
+The unit had predefined python scripts with visualisation showing me examples of correlation and different types of regression. The introduction of polynomial, linear and Pearson formed a solid understanding to the concept. Also, to be able to modify the set parameters helped gain better understanding of its effect on the different types of regression and correlation. 
 
 A couple of Examples below:
 <img width="500" height="252" alt="polynomial" src="https://github.com/user-attachments/assets/35a98db3-8bea-46ff-b3d0-013619d3ad1b" />
@@ -91,11 +91,11 @@ Team project can be found here: [Identifying Competitive Market Segments and Pri
 
 
 **Unit 7 & 8 - Artificial Neural Networks**
-These units has perceptron activities and grafient cost function. 
+These units has perceptron activities and gradient cost function. 
 
-In the perceptron activity, I applied my understanding of the Perceptron by experimenting with different input values in the code provided and weight adjustments to trigger neuron activation. However, I observed that if the inputs remain constant and only the weights are alteres, the neuron fails to activate.
+In the perceptron activity, I applied my understanding of the Perceptron by experimenting with different input values in the code provided and weight adjustments to trigger neuron activation. However, I observed that if the inputs remain constant and only the weights are altered, the neuron fails to activate.
 
-The gradient cost function was focused on finding the lowest possible cost with the fewest iterations in the code. The exercise involced achieving that target by comparing 2 scenarios: the initial setup used 100 iterations with a learning rate of 0.08 while the modified setup reduced the process to 60 iterations with a learning rate of 0.07.
+The gradient cost function was focused on finding the lowest possible cost with the fewest iterations in the code. The exercise involved achieving that target by comparing 2 scenarios: the initial setup used 100 iterations with a learning rate of 0.08 while the modified setup reduced the process to 60 iterations with a learning rate of 0.07.
 
 **Unit 9 and 10 - Legal and Ethical Challenges**
 I considered how Convolutional Neural Networks (CNNs) are transforming object recognition and the ethical questions that come with it. CNNs can bring huge benefits in areas like medical diagnostics as seen in its early stages around the globe, security, and automation, but they also raise concerns about privacy, bias, and misuse. Without clear regulations, these systems could be used for mass surveillance or discriminatory profiling, which would undermine public trust.
@@ -112,16 +112,16 @@ Google (2024). Applications of Artificial Intelligence (AI). [online] Google Clo
 **Unit 11 - Individual Development Project on CIFAR-10**
 This unit was all about writing an individual development project by training a set of images to generate a model which can predict image classes.
 
-Preentation Without Audio: [Presentation without audio.pptx](https://github.com/user-attachments/files/23007580/Presentation.without.audio.pptx)
+Presentation Without Audio: [Presentation without audio.pptx](https://github.com/user-attachments/files/23007580/Presentation.without.audio.pptx)
 
 Transcript: [Transcript.docx](https://github.com/user-attachments/files/23007581/Transcript.docx)
 
 **Unit 12 - Individual Reflections**
-Before starting this course, I only had a pretty surface-level understanding of how machine learning shows up in the real world, especially from a project during my time at Deloitte with the F1 team McLaren and how to optimise car usage and improve on lap time. I knew it was everywhere, but I didn’t really think about what went on behind it. Unit 1 was a lot more eye-opening than I expected. It didn’t just cover how ML works, but also dug into the ethical and professional responsibilities that come with using it. I’ll be honest — I didn’t think the ethics part would interest me much, but it actually did. It made me realise how much impact these systems can have beyond just their technical performance.
+Before starting this course, I only had a pretty surface-level understanding of how machine learning shows up in the real world, especially from a project during my time at Deloitte with the F1 team McLaren and how to optimise car usage and improve on lap time. I knew it was everywhere, but I didn’t really think about what went on behind it. Unit 1 was a lot more eye-opening than I expected. It didn’t just cover how ML works but also dug into the ethical and professional responsibilities that come with using it. I’ll be honest — I didn’t think the ethics part would interest me much, but it actually did. It made me realise how much impact these systems can have beyond just their technical performance.
 
 Unit 2 on Exploratory Data Analysis (EDA) felt familiar at first since I’d done similar work before, but it made me realise I’d been treating it a bit superficially. I used to think of EDA as a quick box to tick before moving on to modelling, but this unit showed me it’s an ongoing process. While my background is heavily on the data warehousing/modelling and data pipelines/ETl, which had taught me the importance of clean and structured data for reporting and analytics purposes, I’ve started looping back to EDA more often now, cleaning and validating data as I go but this time for ML purposes and training models. It’s made a big difference — I spend less time fixing issues later because I’m catching them earlier.
 
-Units 3 and 4, on correlation and regression, were where things got tough. The theory made sense in lectures, but when I tried to apply it in Scikit-Learn, it didn’t click right away. I remember struggling to interpret coefficients and residual plots, and at one point my regression model produced a negative R², which threw me off completely. It took a lot of troubleshooting (and more Googling than I’d like to admit alongside speaking to my Data Science collegues at work to understand the practical applications of it in the job) before I figured out how to fix it. I’m still not 100% sure I understood exactly why it happened, but that experience taught me a lot about patience and problem-solving.
+Units 3 and 4, on correlation and regression, were where things got tough. The theory made sense in lectures, but when I tried to apply it in Scikit-Learn, it didn’t click right away. I remember struggling to interpret coefficients and residual plots, and at one point my regression model produced a negative R², which threw me off completely. It took a lot of troubleshooting (and more Googling than I’d like to admit alongside speaking to my Data Science colleagues at work to understand the practical applications of it in the job) before I figured out how to fix it. I’m still not 100% sure I understood exactly why it happened, but that experience taught me a lot about patience and problem-solving.
 
 By Unit 6, clustering started to feel more comfortable. I’d worked with K-Means before, so it wasn’t totally new.
 
