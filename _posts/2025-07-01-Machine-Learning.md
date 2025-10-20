@@ -3,7 +3,7 @@ layout: post
 title: Machine Learning
 subtitle: A comprehensive reflection of the learning journey across the 12 units of the module. It includes artefacts, summaries of activities and personal reflections related to the modules core learning outcomes.
 categories: Website
-tags: [machine learning, python, exploratory data analysis, correlations, regression]
+tags: [machine learning, python, exploratory data analysis, correlations, regression, kurtosis, clustering, jaccard coefficient, artificial neural networks, legal and ethical challenges, convolutional neural networks]
 ---
 
 **Learning Outcomes for the Machine Learning Unit:**
