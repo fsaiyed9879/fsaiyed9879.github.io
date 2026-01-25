@@ -17,7 +17,60 @@ tags: [big data, data management, data types, data collection and storage, data 
 - Examine and analyse the ideas and theoretical concepts underlying DBMS (Database Management Systems) Database Design and Modelling.
 - Explore the future of use of data and deciphering by examining some fundamental ideas and concepts of machine learning and how these concepts are applied in various methods in handling big data.
 
+### Unit 1 - Introduction to Big Data
+At the start of the module, my understanding of big data was largely focused on scale. Unit 1 expanded this view by emphasising that big data is characterised not only by size, but also by Volume, Velocity, Variety, and Veracity (Laney, 2001). This conceptual foundation helped me understand why traditional batch-based data processing is increasingly insufficient in modern data environments.
 
+A key theme introduced in this unit was the shift towards continuous data generation, particularly through connected devices otherwise known as Internet of things (IoT). Rather than treating data as static datasets, the module highlighted how organisations increasingly rely on real-time or near-real-time data flows to support operational and strategic decision-making. As discussed in the course material, data produced by interconnected devices can provide valuable insights across domains such as healthcare, manufacturing, and smart infrastructure, but only when it is effectively managed and interpreted (Huxley et al., 2020).
+
+This unit also encouraged early critical reflection on the challenges that accompany such data-intensive systems. Data generated from connected environments is often inconsistent, unstructured, or incomplete, increasing the need for robust data wrangling processes before analysis can be trusted. Without appropriate cleaning and transformation, insights derived from these data streams risk being inaccurate or misleading. In addition, the scale and distributed nature of modern data collection raises significant concerns around security, privacy, and ethical use, particularly where individuals may be unaware of the extent of data being captured about them (Zuboff, 2019).
+
+References
+
+Huxley, C. et al. (2020) Data Wrangling in the Era of Big Data: The Role of Automation and Human Insight. [Course material].
+
+Laney, D. (2001) 3D Data Management: Controlling Data Volume, Velocity, and Variety. META Group.
+
+Zuboff, S. (2019) The Age of Surveillance Capitalism. New York: PublicAffairs.
+
+
+### Unit 2 - Data Types and Data Sources
+Unit 2 expanded my understanding of the different types of data used in big data environments, including structured, semi-structured, and unstructured data. I learned how traditional relational data differs from formats such as JSON, XML, and multimedia data, and why these distinctions matter for storage and processing decisions.
+
+This unit highlighted how the rapid growth of unstructured data has been driven by digital platforms, social media, and connected devices. Managing such data effectively requires flexible processing frameworks and careful consideration of data quality and context when using APIs, as unstructured data is often ambiguous and noisy (Kandel et al., 2011).
+
+Reference
+Kandel, S. et al. (2011) ‘Research directions in data wrangling: Visualizations and transformations for usable and credible data’, Information Visualization, 10(4), pp. 271–288.
+
+### Unit 3 - Data Collection and Storage
+This unit focused on extracting data programmatically from multiple sources using Python and APIs, working with JSON and XML. It highlighted how APIs support scalable access and interoperability, while also requiring careful attention to schemas, documentation, and rate limits to avoid incomplete or biased data (Huxley et al., 2020). 
+
+This week built on that by introducing web scraping: I used Requests and BeautifulSoup to search for “data scientist” on Wikipedia and saved the output in a structured format (JSON/XML). The main benefit from this exercise came as i started writing the code, changing it in the process to understand how it works.
+
+<img width="838" height="581" alt="{CBD29B75-3C03-4E71-9204-14C7BAA9F500}" src="https://github.com/user-attachments/assets/44620660-8472-429a-842a-a8957e06f138" />
+
+Referenes 
+Huxley, C. et al. (2020) Data Wrangling in the Era of Big Data: The Role of Automation and Human Insight. [Course material].
+
+### Unit 4
+
+Unit 4 marked a turning point in the module, as it provided my first hands-on experience with cleaning and transforming datasets using Python. Activities included handling missing values, standardising data formats, and preparing raw datasets for analysis.
+
+Although I work professionally as a data consumer, this unit gave me direct insight into the challenges faced by data engineers. I gained a strong appreciation for the importance of data preparation and how errors at this stage can negatively impact downstream analysis and modelling, a well-documented issue in data engineering practice (Rahm and Do, 2000).
+
+There was also a pipeline test which gave me the below results:
+
+<img width="1002" height="576" alt="{27F7179F-F8DE-416E-9A53-41A6D4BEC9F7}" src="https://github.com/user-attachments/assets/118b1245-df0c-4b13-af52-bce73a50b11b" />
+
+<img width="1091" height="716" alt="{812584CF-03F3-4C66-A7BA-E4FA6DC2B3BF}" src="https://github.com/user-attachments/assets/04b8d937-6319-47c5-a1ce-ddea24370f21" />
+
+Data Cleaning Exercise:
+<img width="1057" height="496" alt="{5E3136FB-F1CE-429A-A0B3-7902F9DB1465}" src="https://github.com/user-attachments/assets/82af144f-c838-45c7-a16d-686188f47264" />
+
+<img width="567" height="542" alt="{3E0133DE-8CDA-4BD5-994A-D0C739FF6E98}" src="https://github.com/user-attachments/assets/36a43de6-7f3b-4861-994d-b5c2c414178f" />
+<img width="556" height="635" alt="{36E8150F-006F-4FD7-87B0-7A8475604029}" src="https://github.com/user-attachments/assets/5f2cf6cf-b566-4017-a285-0656e254ee37" />
+
+References
+Rahm, E. and Do, H.H. (2000) ‘Data Cleaning: Problems and Current Approaches’, IEEE Data Engineering Bulletin, 23(4), pp. 3–13.
 
 ### Module Reflection
 
