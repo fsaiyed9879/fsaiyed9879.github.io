@@ -89,7 +89,7 @@ Firstly, an unnormalised table to restructure into 1NF, 2NF, 3NF. While i havent
 Secondly, to turn the excel sheet into a sql code which inserts the data into my GCP environment in its 3NF state.
 <img width="822" height="791" alt="{DEAD3564-EA5E-4CA5-94EB-82FD1F5A6B23}" src="https://github.com/user-attachments/assets/f0182d74-0cb0-4a2a-a5e8-7a6571c4b8d5" />
 
-### Unit 8- Compliance
+### Unit 8 - Compliance
 Unit 8 highlighted how strongly UK data protection law frames security as a core requirement, not an optional extra. The UK GDPR expects personal data to be handled lawfully and securely, and Article 32 in particular emphasises “appropriate” technical and organisational measures. In practical terms, that often means building in protections such as encryption and pseudonymisation, alongside controls that demonstrate ongoing risk awareness and continual improvement rather than a one-time compliance exercise (European Union, 2016; ICO, 2024).
 
 What stood out to me is that these requirements aren’t just about preventing incidents, they also shape how systems should be designed and operated day-to-day. The emphasis on integrity and confidentiality aligns closely with the broader “privacy by design” mindset: considering security from the start, documenting decisions, and being able to justify why the controls in place are suitable for the risks involved (ICO, 2024).
@@ -99,7 +99,18 @@ European Union, 2016. Regulation (EU) 2016/679 of the European Parliament and of
 
 Information Commissioner’s Office (ICO), 2024. Principle (f): Integrity and confidentiality (security). [online] ICO. Available at: https://ico.org.uk/for-organisations/guide-to-data-protection/guide-to-the-general-data-protection-regulation-gdpr/principles/integrity-and-confidentiality-security/ [Accessed 13 July 2025].
 
+### Unit 9 - Database Models and Systems
+This unit helped me see that DBMS choices depend on the problem, not habit. Comparing flat files, relational databases, non-relational systems, and larger platforms like data warehouses, data lakes, and Hadoop clarified the strengths and limitations of each (structure and integrity vs flexibility and scale). I also better understood how database design links to programming approaches, especially the challenges of matching object-oriented code to relational schemas. Finally, the unit reinforced that security is central across all environments—particularly in cloud and large-data setups where access control, encryption, auditing, and backups matter as much as performance.
 
+### Unit 10 - APIs for Data Parsing
+Unit 10 strengthened my understanding of how APIs enable data parsing and communication between systems, especially when working with structured formats like JSON and XML. It also highlighted that API design isn’t just about connectivity—it needs resilience and clear handling of common implementation challenges such as authentication, rate limits, error responses, and versioning. The biggest takeaway for me was the focus on security: protecting endpoints through HTTPS, access controls (API keys/tokens), input validation, and sensible permissions is essential for keeping an API reliable and preventing data exposure.
+
+### Unit 11 - DBMS Transaction and Recovery
+Unit 11 focused on how databases stay reliable when things fail. I learned how transaction processing keeps data consistent by ensuring changes are either fully committed or rolled back, supported by the ACID principles (atomicity, consistency, isolation, durability). We also looked at concurrency through interleaving/scheduling and why controls like locking help prevent issues when many transactions run at once.
+
+On the recovery side, the unit explained how transaction logs and checkpoints support crash recovery, while serious media failures rely on backups. The Grandfather–Father–Son (GFS) method stood out as a practical backup strategy because it rotates daily, weekly, and monthly backups to balance storage use with useful restore points.
+
+Also sumbitted an Exec Summary to build on our work from Unit 6: [Exec Summary Resubmission.docx](https://github.com/user-attachments/files/24842685/Exec.Summary.Resubmission.docx)
 
 ### Module Reflection
 
