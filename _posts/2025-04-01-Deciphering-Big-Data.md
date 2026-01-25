@@ -51,13 +51,15 @@ This week built on that by introducing web scraping: I used Requests and Beautif
 Referenes 
 Huxley, C. et al. (2020) Data Wrangling in the Era of Big Data: The Role of Automation and Human Insight. [Course material].
 
-### Unit 4
+### Unit 4 & 5 - Data Cleaning and Transformation
 
 Unit 4 marked a turning point in the module, as it provided my first hands-on experience with cleaning and transforming datasets using Python. Activities included handling missing values, standardising data formats, and preparing raw datasets for analysis.
 
 Although I work professionally as a data consumer, this unit gave me direct insight into the challenges faced by data engineers. I gained a strong appreciation for the importance of data preparation and how errors at this stage can negatively impact downstream analysis and modelling, a well-documented issue in data engineering practice (Rahm and Do, 2000).
 
-There was also a pipeline test which gave me the below results:
+Unit 5 took the UNICEF work a step further by moving from a one-off cleanup to a repeatable cleaning workflow. Rather than fixing a single DataFrame, I began thinking in terms of a pipeline that can run across many files, apply the same rules (renaming columns, handling missing data, and producing standard outputs), and leave everything ready for analysis. 
+
+There was also a pipeline test (Unit 4) which gave me the below results:
 
 <img width="1002" height="576" alt="{27F7179F-F8DE-416E-9A53-41A6D4BEC9F7}" src="https://github.com/user-attachments/assets/118b1245-df0c-4b13-af52-bce73a50b11b" />
 
@@ -71,6 +73,33 @@ Data Cleaning Exercise:
 
 References
 Rahm, E. and Do, H.H. (2000) ‘Data Cleaning: Problems and Current Approaches’, IEEE Data Engineering Bulletin, 23(4), pp. 3–13.
+
+### Unit 6 - Database Design and Normalisation & Unit 7 - Constructing Normalised tables and DB Build
+Unit 6 focused on data storage solutions and database fundamentals. I learned about relational databases, schema design, and the principles of normalisation (Elmasri and Navathe, 2016).
+
+These concepts later proved essential during the group project, as they provided the theoretical foundation required to design efficient and scalable data models. The unit also introduced the trade-offs between SQL and NoSQL databases, reinforcing the importance of selecting technologies based on specific use cases. 
+
+The team report on Zerotrace is here: [DevelopmentalTeamProject_AkbarovNilssonSayied (1).pdf](https://github.com/user-attachments/files/24842418/DevelopmentalTeamProject_AkbarovNilssonSayied.1.pdf)
+
+Unit 7 gave me 2 tasks at hand: 
+
+Firstly, an unnormalised table to restructure into 1NF, 2NF, 3NF. While i havent actively had to draw these out in my career recently, i certainly remember doing this towards the start of my career and remember these from my studying days. Therefore, this part was quite straightforward to work on. [Normalisation Work.docx](https://github.com/user-attachments/files/24842602/Normalisation.Work.docx)
+
+
+Secondly, to turn the excel sheet into a sql code which inserts the data into my GCP environment in its 3NF state.
+<img width="822" height="791" alt="{DEAD3564-EA5E-4CA5-94EB-82FD1F5A6B23}" src="https://github.com/user-attachments/assets/f0182d74-0cb0-4a2a-a5e8-7a6571c4b8d5" />
+
+### Unit 8- Compliance
+Unit 8 highlighted how strongly UK data protection law frames security as a core requirement, not an optional extra. The UK GDPR expects personal data to be handled lawfully and securely, and Article 32 in particular emphasises “appropriate” technical and organisational measures. In practical terms, that often means building in protections such as encryption and pseudonymisation, alongside controls that demonstrate ongoing risk awareness and continual improvement rather than a one-time compliance exercise (European Union, 2016; ICO, 2024).
+
+What stood out to me is that these requirements aren’t just about preventing incidents, they also shape how systems should be designed and operated day-to-day. The emphasis on integrity and confidentiality aligns closely with the broader “privacy by design” mindset: considering security from the start, documenting decisions, and being able to justify why the controls in place are suitable for the risks involved (ICO, 2024).
+
+References
+European Union, 2016. Regulation (EU) 2016/679 of the European Parliament and of the Council of 27 April 2016 (General Data Protection Regulation). Official Journal of the European Union, L119, pp.1–88. Available at: https://gdpr-info.eu/art-32-gdpr/ [Accessed 13 July 2025].
+
+Information Commissioner’s Office (ICO), 2024. Principle (f): Integrity and confidentiality (security). [online] ICO. Available at: https://ico.org.uk/for-organisations/guide-to-data-protection/guide-to-the-general-data-protection-regulation-gdpr/principles/integrity-and-confidentiality-security/ [Accessed 13 July 2025].
+
+
 
 ### Module Reflection
 
