@@ -1,1 +1,25 @@
 
+import requests
+from bs4 import BeautifulSoup
+import json
+
+URL = "https://en.wikipedia.org/wiki/Data_science"
+
+headers = {"User-Agent": "Mozilla/5.0 (simple student script)"}
+response = requests.get(URL, headers=headers, timeout=30)
+response.raise_for_status()
+
+soup = BeautifulSoup(response.text, "html.parser")
+
+title_tag = soup.select_one("h1#firstHeading") or soup.find("h1")
+title = title_tag.get_text(strip=True) if title_tag else "N/A"
+
+p_tag = soup.select_one("#mw-content-text .mw-parser-output > p:not(.mw-empty-elt)")
+first_paragraph = p_tag.get_text(" ", strip=True) if p_tag else "N/A"
+
+data = {"url": URL, "title": title, "first_paragraph": first_paragraph}
+
+print(data)
+
+with open("DataScientist.json", "w", encoding="utf-8") as f:
+  json.dump(data, f, ensure_ascii=False, indent=2)
